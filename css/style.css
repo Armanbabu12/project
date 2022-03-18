@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+/* start menu part */
+
+/* .n1m{
+    color: red;
+    } */
+ .sec1{
+        background: #000;
+        padding: 0px 100px ;
+        color: #ffffff;
+        }
+        .sec1 nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 7px 0px;
+            align-items: center;
+        }
+        .logo img{
+            width: 130px;
+            margin: 0px 0px 0px -50px;
+        }
+        .sec1 ul{
+            display: flex;
+            list-style: none;
+
+        }
+        ul li a{
+            text-decoration: none;
+            color: #ffffff;
+            padding: 19px 32px;
+        }
+        ul li a:hover{
+            background: brown;
+        }
+
+        .search-part a{
+            color: #ffffff;
+        }
+        .search-part a{
+            font-size: 15px;
+            margin: 0px -20px 0px 0px;
+        }
+/* end menu part */
+
+/* start hero part */
+#hero{
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.png);
+    padding: 100px 0px 0px 40px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+    .hero-writing-part h1{
+        font-size: 50px;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    .hero-writing-part p{
+        width: 50%;
+        color: rgb(242, 242, 242);
+    }
+    .hero-writing-part button{
+        background: orange;
+        padding: 10px 40px;
+        margin-top: 20px;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+/* end hero part */
+
+/* start about part */
+
+#about{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #ff7f00;
+    
+    }
+    .about-writing-part{
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .about-writing-part h1{
+        font-size: 50px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .about-writing-part p{
+        width: 40%;
+        color: rgb(242, 242, 242);
+        margin: auto;
+    }
+    .about-box-part{
+        width: 100%;
+        float: left;
+        padding: 5px 60px 70px 110px;
+    
+    }
+    .about-box{
+        width: 25%;
+        float: left;
+        margin: 0px 25px;
+        background: gray;  
+    }
+    .about-box img{
+        width: 100%;
+        height: 180px;
+    }
+    .about-box h2{
+        font-size: 27px;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    .about-box p{
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        color: aliceblue;
+    }
+/* end about part */
+
+/* start pricing box */
+
+#pricing{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(33, 31, 31);
+    }
+    .pricing-box-part{
+        width: 100%;
+        float: left;
+        padding: 0px 0px 30px 35px;
+    
+    }
+    .pricing-writing-part{
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .pricing-writing-part h1{
+        font-size: 50px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .pricing-writing-part P{
+        width: 40%;
+        color: rgb(242, 242, 242);
+        margin: auto;
+    }
+    .pricing-box{
+        width: 28%;
+        float: left;
+        margin: 0px 20px;
+        background: #FF6A15; 
+    }
+    .pricing-box h2{
+        font-size: 27px;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    .pricing-box p{
+        padding: 10px 22px;
+        margin-bottom: 15px;
+        color: aliceblue;
+    }
+    .pricing-box img{
+        margin-top: 30px;
+    }
+    .pricing-box button{
+        background: black;
+        padding: 15px 80px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+/* end pricing part */
+
+/* start dance part */
+
+#dance{
+ width: 100%;
+ float: left;
+    }
+    .dance-part{
+        width: 100%;
+        float: left;
+        background: #FF6A15;
+    }
+    .dance-img-part{
+        width: 50%;
+        float: left;
+    }
+
+    .dance-writing-part{
+        width: 50%;
+        float: left;
+        padding: 200px 50px 0px 50px;
+        
+    }
+
+    .dance-writing-part h1{
+        font-size: 50px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .dance-writing-part p{
+        padding: 0px 3px;
+        margin-bottom: 0px;
+        color: aliceblue;
+    }
+    .dance-img-part img{
+        width: 100%;
+    height: 568px;
+    }
+    .dance-writing-part button{
+        background: black;
+        padding: 12px 50px;
+        margin-top: 50px;
+        border-radius: 3px;
+        color: #ffffff;
+    }
+/* end dance part */
+
+/* start staition parat  */
+#staition{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin-top: -5px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(33, 31, 31);  
+    }
+    .staition-box-part{
+        width: 100%;
+        float: left;
+        padding: 0px 0px 30px 35px;
+    
+    }
+    .staition-writing-part{
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .staition-writing-part h1{
+        font-size: 50px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .staition-writing-part P{
+        width: 50%;
+        color: rgb(242, 242, 242);
+        margin: auto;
+        font-size: 20px;
+    }
+    .staition-box{
+        width: 28%;
+        float: left;
+        margin: 0px 20px;
+    margin-top: 50px;
+    }
+    .staition-box h1{
+        font-size: 50px;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    .staition-box p{
+        padding: 10px 22px;
+        margin-bottom: 15px;
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+/* end staition part */
+
+/* start hearbet */
+
+#hearbet{
+    width: 100%;
+    float: left;
+    background-image: url(../img/background.jpg);
+    padding: 100px 0px 0px 40px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-position: center center;
+    }
+    .hearbet-writing-part h1{
+        font-size: 50px;
+        margin-top: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .hearbet-writing-part p{
+        color: rgb(242, 242, 242);
+        text-align: center;
+        margin-top: 80px;
+        font-size: 30px;
+        padding: 0px 100px 0px 100px;
+    }
+/* end hearbet */
+
+/* start subscribe */
+#subscribe{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: -5px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: #FF6A15;
+    }
+    .subscribe-writing-part{
+        width: 100%;
+        float: left;
+        margin-bottom: 50px;
+    }
+    .subscribe-writing-part h1{
+        font-size: 50px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .subscribe-writing-part P{
+        width: 50%;
+        color: rgb(242, 242, 242);
+        margin: auto;
+        font-size: 20px;
+    }
+    .subscribe-writing-part input{
+        width: 30%;
+        padding: 9px 0px 10px 9px;
+        margin-top: 30px;
+        margin-right: -4px;
+    }
+    .subscribe-writing-part button{
+        width: 10%;
+        padding: 9px 0px 10px 9px;
+        margin-top: 30px;
+        background: black;
+        color: white;
+        text-transform: uppercase;
+    }
+/* end subscribe */
+
+/* start footer part */
+#footer{
+    padding: 30px 0px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(33, 31, 31);
+    }
+    .footer-box-part{
+        width: 100%;
+        float: left;
+        padding: 0px 0px 30px 35px;
+    
+    }
+    .footer-box1{
+        width: 30%;
+        float: left;
+        margin: 20px 120px 20px 0px;
+    }
+    .footer-box1 h1{
+        font-size: 30px;
+        margin-top: 20px;
+        color: #ffffff;
+        text-align: justify;
+    }
+    .footer-box1 p{
+        padding: 20px 0px;
+        margin-bottom: 15px;
+        color: rgb(146, 147, 148);
+        font-size: 19px;
+        text-align: justify;
+    }
+    .footer-box1 a i{
+        background: #ffffff;
+        font-size: 32px;
+        border-radius: 20px;
+        margin: 0px 10px 0px 0px;
+        float: left;
+    }
+    .footer-box{
+        width: 16%;
+        float: left;
+        margin: 20px 15px;
+    }
+    .footer-box h1{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #ffffff;
+        text-align: justify;
+    }
+    .footer-box p{
+        margin-bottom: 10px;
+        color: rgb(146, 147, 148);
+        font-size: 19px;
+        padding: 0px 0px 0px 0px;
+        text-align: justify;
+    }
+/* end footer part */
